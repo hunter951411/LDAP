@@ -24,10 +24,13 @@ sudo dpkg-reconfigure slapd
 ```
 
 Bạn sẽ được hỏi một loạt các câu hỏi về cách bạn muốn cấu hình phần mềm.
+
 Omit OpenLDAP server configuration? No
+
 Bỏ qua cấu hình máy chủ OpenLDAP? Không
 
 DNS domain name?
+
 Tên miền DNS?
 
 Điều này sẽ tạo ra các cấu trúc cơ sở của đường dẫn thư mục của bạn. Đọc tin nhắn để hiểu làm thế nào nó hoạt động. 
@@ -36,24 +39,32 @@ Không có quy tắc thiết lập để làm thế nào để cấu hình này.
 Trong bài này, chúng tôi sẽ gọi nó là test.com
 
 Organization name?
+
 Một lần nữa, điều này tùy thuộc vào bạn.
+
 Chúng tôi sẽ sử dụng example trong hướng dẫn này
 
 Administrator password?
+
 Mật khẩu người quản trị
+
 Sử dụng mật khẩu bạn đã cấu hình trong khi cài đặt hoặc sử dụng một mật khẩu khác.
 
 Database backend to use? <b>HDB</b>
+
 Cơ sở dữ liệu phụ trợ để sử dụng? <b>HDB</b>
 
 Remove the database when slapd is purged? <b>NO</b>
+
 Xóa cơ sở dữ liệu khi slapd bị xóa? <b>NO</b>
 
 Move old databases? <b>YES</b>
+
 Di chuyển dữ liệu cũ? <b>Có</b>
 
 Allow LDAPv2 protocol?<b>NO</b>
-Cho phép giao thức L2? <b>Không</b>
+
+Cho phép giao thức LDAPv2? <b>Không</b>
 
 
 ###Cấu hình PHPldapadmin
