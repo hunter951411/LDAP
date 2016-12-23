@@ -66,6 +66,15 @@ Allow LDAPv2 protocol?<b>NO</b>
 
 Cho phép giao thức LDAPv2? <b>Không</b>
 
+###Cài đặt PHPldapadmin
+
+Chúng tôi sẽ quản trị LDAP thông qua một giao diện web được gọi là PHPldapadmin. Điều này cũng có sẵn trong kho mặc định của Ubuntu. 
+
+Cài đặt nó bằng lệnh này: 
+```
+sudo apt-get install phpldapadmin 
+```
+Điều đó sẽ cài đặt tất cả các máy chủ web và PHP phụ thuộc yêu cầu.
 
 ###Cấu hình PHPldapadmin
 Chúng ta cần phải cấu hình một số gtrị trong tập tin giao diện web trước khi chạy nó.
